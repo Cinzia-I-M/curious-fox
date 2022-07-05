@@ -1,0 +1,30 @@
+-/* Navigation code */
+#nav_bar {
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+li{
+    float:right;
+    display: inline;
+    padding: 10px;
+}
+li.nav-links:hover{
+    background-color: pink ;
+}
+/* Header Code for images*/
+.Front-images
+    img {
+        width: 33%; /*image width*/
+        float: left; /*image position*/
+        }
+/* Footer settings */
+footer {
+    border-top: solid 3px rgb(20, 20, 20);
+    background-color: rgb(156, 154, 149);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%
+}
