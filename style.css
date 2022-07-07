@@ -170,6 +170,95 @@
 /* HEADER STYLING FINISH */
 
 
+/* FOOTER STYLING START */
+
+.footer {
+  background: #404042;
+  border: none;
+}
+
+.footer-middle {
+  display: flex;
+}
+
+.footer-logo {
+  text-align: center;
+  padding-top: 7px;
+}
+
+.footer-logo img {
+  width: 125px;
+  height: auto;
+}
+
+.follow-socials {
+  text-align: left;
+  flex: 1 0 auto;
+  padding-left: 15px;
+  padding-bottom: 8px;
+}
+
+.footer p {
+  font-size: 18px;
+  font-weight: 600;
+  color: ghostwhite;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: #39a9db;
+  font-size: 22px;
+}
+
+.subscribe-section {
+  text-align: right;
+  flex: 1 0 auto;
+  padding-right: 15px;
+  padding-bottom: 8px;
+}
+
+.copyright {
+  text-align: center;
+  background-color: #2a2a2a;
+  color: ghostwhite;
+  padding: 10px;
+}
+
+.subscribe-input {
+  width: 200px;
+  background-color:rgb(188, 188, 188);
+  font-weight: 500;
+}
+
+.subscribe-submit {
+  background-color: #39a9db;
+  border: none;
+  border-radius: 10px;
+  color: ghostwhite;
+  padding: 2px 10px 2px 10px;
+  margin-top: 8px;
+}
+
+.social-icons a:hover {
+  color: #1c77c3;
+}
+
+.subscribe-submit:hover {
+  background-color: #1c77c3;
+}
+
+@media only screen and (max-width: 340px) {
+  .footer-middle {
+    flex-direction: column;
+  }
+  .follow-socials, .subscribe-section {
+    text-align: center;
+    padding: 0;
+  }
+}
+
+
+/* FOOTER STYLING FINISH */
 
 
 
