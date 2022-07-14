@@ -6,6 +6,7 @@
   font-size: 14px;
   display: flex;
   align-items: center;
+  font-family: 'Noto Serif', serif;
 }
 
 .nav-bar-header li {
@@ -86,7 +87,7 @@
 .dropdown-content-2 {
   display: none;
   position: absolute;
-  background-color: #39a9db;
+  background-color: #7a1aa3;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -104,7 +105,7 @@
 /* Change color of dropdown links on hover */
 .dropdown-content-1 a:hover,
 .dropdown-content-2 a:hover {
-  background-color: #1c77c3;
+  background-color: #5a1179;
 }
 
 /* Show the dropdown menu on hover */
@@ -116,13 +117,13 @@
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown-1:hover .dropbtn-1,
 .dropdown-2:hover .dropbtn-2 {
-  background-color: #40bcd8;
+  background-color: #a835d9;
   cursor: default;
 }
 
 .connect-btn:hover {
   color: white;
-  background: #40bcd8;
+  background: #a835d9;
 }
 
 @media only screen and (max-width: 720px) {
@@ -169,6 +170,129 @@
 
 /* HEADER STYLING FINISH */
 
+/* HERO HEADER STYLING START */
+
+.hero-header {
+  background-color: #000000;
+  background-image: linear-gradient(to bottom, transparent, #000000), url("images/fox-hero-header-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  color: ghostwhite;
+  font-family: 'Noto Serif', serif;
+  font-weight: 700;
+  font-size: 65px;
+  padding: 100px 80px 200px 50px;
+}
+
+#keyWord {
+  color: #e84e1b;
+}
+
+.card-container {
+  display: flex;
+  flex-flow: row nowrap;
+  overflow-x: auto;
+}
+
+.card-scroll {
+  width: 400px;
+  text-align: center;
+  padding: 24px;
+  margin: 8px;
+}
+
+.card-scroll img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+  object-position: top;
+}
+
+.card-scroll p {
+  font-family: 'Noto Serif', serif;
+  color: rgb(136, 136, 136);
+}
+
+h2 {
+  font-family: 'Noto Serif', serif;
+  color: ghostwhite;
+  font-size: 28px;
+}
+
+.genre-cards {
+  background-color: #000000;
+}
+
+.icon-style {
+  background-color: ghostwhite;
+  width: 200px;
+  height: 200px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  color: #000000;
+  font-size: 80px;
+}
+
+.icon-style:hover {
+  color: #e84e1b;
+}
+
+
+
+::-webkit-scrollbar{
+    height: 4px;
+    width: 4px;
+    background: gray;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000000; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(255, 255, 255); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(255, 255, 255); 
+}
+
+::-webkit-scrollbar-thumb:horizontal{
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+
+
+.vertical-text {
+  writing-mode: tb-rl;
+  transform: rotate(-180deg);
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #7a1aa3;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: 30px;
+  border-left: 1px solid;
+  display: block;
+  height: 200px;
+  text-align: right;
+}
+
+
+/* HERO HEADER STYLING FINISH */
+
 
 /* FOOTER STYLING START */
 
@@ -200,13 +324,14 @@
 
 .footer p {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 400;
   color: ghostwhite;
+  font-family: 'Noto Serif', serif;
 }
 
 .social-icons a {
   text-decoration: none;
-  color: #39a9db;
+  color: #e84e1b;
   font-size: 22px;
 }
 
@@ -231,7 +356,7 @@
 }
 
 .subscribe-submit {
-  background-color: #39a9db;
+  background-color: #e84e1b;
   border: none;
   border-radius: 10px;
   color: ghostwhite;
@@ -240,11 +365,11 @@
 }
 
 .social-icons a:hover {
-  color: #1c77c3;
+  color: #b13d16;
 }
 
 .subscribe-submit:hover {
-  background-color: #1c77c3;
+  background-color: #b13d16;
 }
 
 @media only screen and (max-width: 340px) {
@@ -259,25 +384,3 @@
 
 
 /* FOOTER STYLING FINISH */
-
-
-
-
-
-/* Header Code for images*/
-.Front-images img {
-  width: 33%;
-  /*image width*/
-  float: left;
-  /*image position*/
-}
-
-/* Footer settings */
-footer {
-  border-top: solid 3px rgb(20, 20, 20);
-  background-color: rgb(156, 154, 149);
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%
-}

@@ -9,9 +9,14 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/5aeb14b8ee.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style.css" />
+  <script src="./script.js"></script>
 </head>
-
 <body>
   <!-- nav-bar-header -->
   <header>
@@ -48,10 +53,92 @@
     </nav>
   </header>
   <!-- hero-header -->
-  <div class="Front-images">
-    <img src="./images/..." alt="Top 10 Books" height="300">
-    <img src="./images/..." alt="Top 10 TV shows" height="300">
-    <img src="./images/..." alt="Top 10 podcasts" height="300">
+  <div class="hero-header">
+    <h1>Find your next <br><span id="keyWord">connection</span></h1>
+    <div class="card-container">
+      <div>
+        <p class="vertical-text">Genre</p>
+      </div>
+      <div class="card-scroll">
+        <a href="https://www.netflix.com/title/81000864"><img src="images/abducted-in-plain-sight-1560794482.jpg" alt="abducted in plain sight tv show poster"></a>
+        <p>TV show</p>
+        <h2>True crime</h2>
+      </div>
+      <div class="card-scroll">
+        <a href="https://www.amazon.co.uk/Age-AI-Our-Human-Future/dp/1529375975/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=1657824167&sr=8-1"><img src="images/the-age-of-ai.jpg" alt="the age of ai book cover"></a>
+        <p>Book</p>
+        <h2>Technology</h2>
+      </div>
+      <div class="card-scroll">
+        <a href="https://www.amazon.co.uk/Lord-Rings-Fellowship-Alan-Howard/dp/B00IHRUR3I"><img src="images/lotr.jpg" alt="lord of the rings movie poster"></a>
+        <p>Film</p>
+        <h2>Fantasy</h2>
+      </div>
+      <div class="card-scroll">
+        <a href="https://www.youtube.com/c/ZoeSugg"><img src="images/Zoe-Sugg.jpg" alt="zoe sugg beauty vlogger"></a>
+        <p>Vlog</p>
+        <h2>Beauty</h2>
+      </div>
+      <div class="card-scroll">
+        <a href="https://twitter.com/TheMontyDon?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="./images/monty-don.jpg" alt="monty don and mary berry"></a>
+        <p>Twitter</p>
+        <h2>Gardening</h2>
+      </div>
+      <div class="card-scroll">
+        <a href="https://www.skysports.com/womens-football"><img src="./images/skysports-leah-williamson-beth-mead_5805540.png" alt="women's football lionesses"></a>
+        <p>Website</p>
+        <h2>Football</h2>
+      </div>
+      <div class="card-scroll">
+        <a href="https://www.amazon.co.uk/Knitting-Book-Step-Step-Techniques/dp/024136194X/ref=asc_df_024136194X/?tag=googshopuk-21&linkCode=df0&hvadid=375480601620&hvpos=&hvnetw=g&hvrand=8872891340466283660&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1006490&hvtargid=pla-815171494739&psc=1&th=1&psc=1&tag=&ref=&adgrpid=76471992426&hvpone=&hvptwo=&hvadid=375480601620&hvpos=&hvnetw=g&hvrand=8872891340466283660&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1006490&hvtargid=pla-815171494739"><img src="./images/knitting.jpg" alt=""></a>
+        <p>Book</p>
+        <h2>Knitting</h2>
+      </div>
+      <div class="card-scroll">
+        <a href="https://www.bbc.co.uk/programmes/m001955r"><img src="images/english-rose.jpg" alt="english rose podcast"></a>
+        <p>Podcast</p>
+        <h2>Drama</h2>
+      </div>
+    </div>
+  </div>
+  <div class="genre-cards">
+    <div class="card-container">
+      <div>
+        <p class="vertical-text">Media</p>
+      </div>
+      <div class="card-scroll">
+        <a class="icon-style" href="#"><i class="fas fa-tv"></i></a>
+        <h2>TV shows</h2>
+      </div>
+      <div class="card-scroll">
+        <a class="icon-style" href="#"><i class="fas fa-book"></i></a>
+        <h2>Books</h2>
+      </div>
+      <div class="card-scroll">
+        <a class="icon-style" href="#"><i class="fas fa-podcast"></i></a>
+        <h2>Podcasts</h2>
+      </div>
+      <div class="card-scroll">
+        <a class="icon-style" href="#"><i class="fas fa-film"></i></a>
+        <h2>Film</h2>
+      </div>
+      <div class="card-scroll">
+        <a class="icon-style" href="#"><i class="fas fa-hashtag"></i></a>
+        <h2>Social Media</h2>
+      </div>
+      <div class="card-scroll">
+        <a class="icon-style" href="#"><i class="fas fa-video"></i></a>
+        <h2>Vlogs</h2>
+      </div>
+      <div class="card-scroll">
+        <a class="icon-style" href="#"><i class="fas fa-mouse-pointer"></i></a>
+        <h2>Websites</h2>
+      </div>
+      <div class="card-scroll">
+        <a class="icon-style" href="#"><i class="fas fa-blog"></i></a>
+        <h2>Blogs</h2>
+      </div>
+    </div>
   </div>
   <!-- footer -->
   <footer class="footer">
@@ -89,7 +176,7 @@
       </div>
     </div>
     <div class="copyright">
-      <i class="fa-solid fa-copyright" ></i> Cinzia Emma Naima Helen 
+      <i class="fa-solid fa-copyright" ></i> Cinzia & Emma 
     </div>
   </footer>
   <!-- JavaScript code for Bootstrap V5.1-->
