@@ -294,6 +294,50 @@ h2 {
 /* HERO HEADER STYLING FINISH */
 
 
+/* RANDOM BUTTON AND ABOUT SECTION START */
+
+
+.randomCont {
+  background-image: url(images/wallpaperflare.com_wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 480px;
+  display: flex;
+  padding-top: 100px;
+  padding-left: 400px;
+  justify-content: center;
+}
+
+.randomCont a {
+  display:block;
+  text-decoration: none;
+  width:400px;
+  height:80px;
+  text-align:center;
+  background-color: #e84e1b;
+  color: #000000;
+  font-family: 'Noto Serif', serif;
+  font-weight: 700;
+  font-size: 50px;
+  border: 3px solid #020202;
+}
+
+.randomCont a:hover {
+  background-color: #5a1179;
+  color: ghostwhite;
+  border: 3px solid #ffffff;
+}
+
+
+.aboutSection {
+  
+}
+
+
+/* RANDOM BUTTON AND ABOUT SECTION FINISH */
+
+
 /* FOOTER STYLING START */
 
 .footer {
