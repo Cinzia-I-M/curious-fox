@@ -302,6 +302,12 @@ h3 {
   font-size: 28px;
 }
 
+h4 {
+  font-family: 'Noto Serif', serif;
+  color: #e84e1b;
+  font-size: 36px;
+}
+
 .randomCont {
   background-image: url(images/wallpaperflare.com_wallpaper.jpg);
   background-repeat: no-repeat;
