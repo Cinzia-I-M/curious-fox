@@ -334,6 +334,20 @@ h2 {
   
 }
 
+/* Header for sub pages  */
+
+.hero-header-Media {
+  background-color: #000000;
+  background-image: linear-gradient(to bottom, transparent, #000000), url("images/fox-hero-header-2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#SubPageKeyWord {
+  color: #e84e1b;
+}
+
+
 
 /* RANDOM BUTTON AND ABOUT SECTION FINISH */
 
