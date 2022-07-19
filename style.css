@@ -296,6 +296,17 @@ h2 {
 
 /* RANDOM BUTTON AND ABOUT SECTION START */
 
+h3 {
+  font-family: 'Noto Serif', serif;
+  color: #e84e1b;
+  font-size: 28px;
+}
+
+h4 {
+  font-family: 'Noto Serif', serif;
+  color: #e84e1b;
+  font-size: 36px;
+}
 
 .randomCont {
   background-image: url(images/wallpaperflare.com_wallpaper.jpg);
@@ -331,8 +342,28 @@ h2 {
 
 
 .aboutSection {
+  background-color: hsl(0, 0%, 3%);
+  color:#ce6c4c; 
+  font-size: 16px;
+  align-items: center;
+  font-family: 'Noto Serif', serif;
+  border: 10px solid #020202
   
 }
+
+/* Header for sub pages  */
+
+.hero-header-Media {
+  background-color: #000000;
+  background-image: linear-gradient(to bottom, transparent, #000000), url("images/fox-hero-header-2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#SubPageKeyWord {
+  color: #e84e1b;
+}
+
 
 
 /* RANDOM BUTTON AND ABOUT SECTION FINISH */
