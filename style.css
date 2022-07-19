@@ -296,6 +296,11 @@ h2 {
 
 /* RANDOM BUTTON AND ABOUT SECTION START */
 
+h3 {
+  font-family: 'Noto Serif', serif;
+  color: #e84e1b;
+  font-size: 28px;
+}
 
 .randomCont {
   background-image: url(images/wallpaperflare.com_wallpaper.jpg);
@@ -331,6 +336,12 @@ h2 {
 
 
 .aboutSection {
+  background-color: hsl(0, 0%, 3%);
+  color:#ce6c4c; 
+  font-size: 16px;
+  align-items: center;
+  font-family: 'Noto Serif', serif;
+  border: 10px solid #020202
   
 }
 
