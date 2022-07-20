@@ -364,6 +364,22 @@ h4 {
   color: #e84e1b;
 }
 
+/* Sub Page Links */
+.aboutSection a{
+  color:#7a1aa3
+}
+
+.aboutSection a:hover {
+  background-color: #5a1179;
+  color: ghostwhite;
+}
+
+/*  Code for sub page images*/
+.Sub_Page_Images
+    img {
+        width: 33%; /*image width*/
+        float: left; /*image position*/
+        }
 
 
 /* RANDOM BUTTON AND ABOUT SECTION FINISH */
