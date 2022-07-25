@@ -180,7 +180,7 @@
   background-position: center;
 }
 
-.home-h1 {
+h1 {
   color: ghostwhite;
   font-family: 'Noto Serif', serif;
   font-weight: 700;
@@ -274,7 +274,6 @@ h2 {
 }
 
 
-
 .vertical-text {
   writing-mode: tb-rl;
   transform: rotate(-180deg);
@@ -327,30 +326,28 @@ h2 {
   border: 3px solid #ffffff;
 }
 
-.aboutSection {
-  display: flex;
-  background-color: hsl(0, 0%, 3%);
-  color:#ce6c4c; 
-  font-size: 16px;
-  align-items: center;
-  font-family: 'Noto Serif', serif;
-  border: 10px solid #020202
-}
-
 .about-1 {
+  padding: 50px 0px 10px 50px;
   width: 700px;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 65%;
 }
 
 .about-2 {
-  padding: 0px 100px;
+  padding: 0px 20px;
   width: auto;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 35%;
 }
 
 .tiktok-embed {
   height: 578px;
+  width: 325px!important;
 }
 
-.aboutSection h3 {
+.about-us-section h3 {
   font-family: 'Noto Serif', serif;
   color: #e84e1b;
   font-size: 28px;
@@ -377,6 +374,38 @@ h2 {
   border: 3px solid #7a1aa3;
 }
 
+.about-us-section {
+  display: flex;
+  background-color: hsl(0, 0%, 3%);
+  color:#ce6c4c; 
+  font-family: 'Noto Serif', serif;
+  padding: 10px 0px;
+}
+
+
+/* TV PAGE START */
+
+h3 {
+  font-family: 'Noto Serif', serif;
+  color: #e84e1b;
+  font-size: 28px;
+}
+
+h4 {
+  font-family: 'Noto Serif', serif;
+  color: #e84e1b;
+  font-size: 36px;
+}
+
+.aboutSection {
+  background-color: hsl(0, 0%, 3%);
+  color:#ce6c4c; 
+  font-size: 16px;
+  align-items: center;
+  font-family: 'Noto Serif', serif;
+  border: 10px solid #020202
+}
+
 /* Header for sub pages  */
 
 .hero-header-Media {
@@ -391,14 +420,14 @@ h2 {
 }
 
 /* Sub Page Links */
-/* .aboutSection a{
+.aboutSection a{
   color:#7a1aa3
 }
 
 .aboutSection a:hover {
   background-color: #5a1179;
   color: ghostwhite;
-} */
+}
 
 /*  Code for sub page images*/
 .Sub_Page_Images
@@ -408,7 +437,7 @@ h2 {
         }
 
 
-/* RANDOM BUTTON AND ABOUT SECTION FINISH */
+/* TV PAGE FINISH */
 
 
 /* FOOTER STYLING START */
