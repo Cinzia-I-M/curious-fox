@@ -180,7 +180,7 @@
   background-position: center;
 }
 
-h1 {
+.home-h1 {
   color: ghostwhite;
   font-family: 'Noto Serif', serif;
   font-weight: 700;
@@ -296,18 +296,6 @@ h2 {
 
 /* RANDOM BUTTON AND ABOUT SECTION START */
 
-h3 {
-  font-family: 'Noto Serif', serif;
-  color: #e84e1b;
-  font-size: 28px;
-}
-
-h4 {
-  font-family: 'Noto Serif', serif;
-  color: #e84e1b;
-  font-size: 36px;
-}
-
 .randomCont {
   background-image: url(images/wallpaperflare.com_wallpaper.jpg);
   background-repeat: no-repeat;
@@ -335,20 +323,58 @@ h4 {
 }
 
 .randomCont a:hover {
-  background-color: #5a1179;
   color: ghostwhite;
   border: 3px solid #ffffff;
 }
 
-
 .aboutSection {
+  display: flex;
   background-color: hsl(0, 0%, 3%);
   color:#ce6c4c; 
   font-size: 16px;
   align-items: center;
   font-family: 'Noto Serif', serif;
   border: 10px solid #020202
-  
+}
+
+.about-1 {
+  width: 700px;
+}
+
+.about-2 {
+  padding: 0px 100px;
+  width: auto;
+}
+
+.tiktok-embed {
+  height: 578px;
+}
+
+.aboutSection h3 {
+  font-family: 'Noto Serif', serif;
+  color: #e84e1b;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.about-subhead {
+  font-size: 20px;
+  color:#d18c75; 
+}
+
+#featured-link {
+  text-decoration: none;
+  color: #7a1aa3;
+}
+
+#featured-link:hover {
+  color: ghostwhite;
+}
+
+.featured-pick {
+  text-align: center;
+  padding: 10px;
+  border: 3px solid #7a1aa3;
 }
 
 /* Header for sub pages  */
@@ -365,14 +391,14 @@ h4 {
 }
 
 /* Sub Page Links */
-.aboutSection a{
+/* .aboutSection a{
   color:#7a1aa3
 }
 
 .aboutSection a:hover {
   background-color: #5a1179;
   color: ghostwhite;
-}
+} */
 
 /*  Code for sub page images*/
 .Sub_Page_Images
@@ -475,3 +501,49 @@ h4 {
 
 
 /* FOOTER STYLING FINISH */
+
+
+/* connect page styling start */
+
+.connect-cont {
+  display: flex;
+}
+
+.video-cont {
+  overflow: hidden;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 40%;
+}
+
+.connect-video {
+  height: 100%;
+  transform: translate(-50%, 0);
+}
+
+.connect-form {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 60%;
+  text-align: center;
+  font-family: 'Noto Serif', serif;
+  padding: 50px 0px;
+  background-color: #000000;
+  color: ghostwhite;
+}
+
+.connect-form h1 {
+  font-size: 70px;
+  color: #e84e1b;
+}
+
+.connect-form p {
+  font-size: 20px;
+  color: #ce6c4c;
+}
+
+#media-title {
+  text-decoration: underline;
+}
+
+/* connect page styling start */
