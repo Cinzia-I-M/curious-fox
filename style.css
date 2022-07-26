@@ -126,48 +126,6 @@
   background: #a835d9;
 }
 
-@media only screen and (max-width: 720px) {
-  .header-search-bar {
-    width: 10px;
-    height: 10px;
-    padding: 10px;
-    border-radius: 5px;
-  }
-
-  .search-container i {
-    top: 7px;
-    left: 16px;
-    font-size: 10px;
-  }
-
-  .header-search-bar:hover {
-    width: 150px;
-  }
-
-  .search-container {
-    flex: 0 0 auto;
-    margin: 5px;
-  }
-
-  .logo img {
-    width: 95px;
-  }
-
-  .dropbtn-1,
-  .dropbtn-2,
-  .connect-btn,
-  .dropdown-content-1 a,
-  .dropdown-content-2 a {
-    padding: 4px;
-    font-size: 12px;
-  }
-
-  .dropdown-content-1,
-  .dropdown-content-2 {
-    min-width: 100px
-  }
-}
-
 /* HEADER STYLING FINISH */
 
 /* HERO HEADER STYLING START */
@@ -524,17 +482,6 @@ h4 {
   background-color: #b13d16;
 }
 
-@media only screen and (max-width: 340px) {
-  .footer-middle {
-    flex-direction: column;
-  }
-  .follow-socials, .subscribe-section {
-    text-align: center;
-    padding: 0;
-  }
-}
-
-
 /* FOOTER STYLING FINISH */
 
 
@@ -614,3 +561,107 @@ h4 {
 }
 
 /* connect page styling finish */
+
+
+/* Responsiveness */
+
+@media only screen and (max-width: 720px) {
+  .header-search-bar {
+    width: 10px;
+    height: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .search-container i {
+    top: 7px;
+    left: 16px;
+    font-size: 10px;
+  }
+
+  .header-search-bar:hover {
+    width: 150px;
+  }
+
+  .search-container {
+    flex: 0 0 auto;
+    margin: 5px;
+  }
+
+  .logo img {
+    width: 95px;
+  }
+
+  .dropbtn-1,
+  .dropbtn-2,
+  .connect-btn,
+  .dropdown-content-1 a,
+  .dropdown-content-2 a {
+    padding: 4px;
+    font-size: 12px;
+  }
+
+  .dropdown-content-1,
+  .dropdown-content-2 {
+    min-width: 100px
+  }
+
+  .footer-middle {
+    flex-direction: column;
+  }
+  .follow-socials, .subscribe-section {
+    text-align: center;
+    padding: 0;
+  }
+
+  .subscribe-form {
+    margin-bottom: 10px;
+  }
+
+  .hero-header h1 {
+    font-size: 30px;
+  }
+
+  .randomCont {
+    padding: 50px 0px;
+    background-position-x: -130px;
+  }
+
+  .randomCont a {
+    font-size: 30px;
+    width: 250px;
+    height: 50px;
+  }
+
+  .about-us-section {
+    display: block;
+  }
+
+  .about-1 {
+    width: auto;
+    padding: 10px;
+  }
+
+  .tiktok-embed {
+    height: auto;
+    width: 325px!important;
+  }
+
+  .video-cont {
+    display: none;
+  }
+
+  .connect-form {
+    padding: 10px 0px;
+  }
+
+  .connect-form h1 {
+    font-size: 50px;
+  }
+
+  #description {
+    max-width: 300px;
+  }
+
+}
+
