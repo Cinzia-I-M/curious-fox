@@ -182,6 +182,17 @@ h2 {
   font-size: 28px;
 }
 
+.fantasy-h2 {
+  text-decoration: none;
+  font-family: 'Noto Serif', serif;
+  color: ghostwhite;
+  font-size: 28px;
+}
+
+.fantasy-h2:hover {
+  color: #b13d16;
+}
+
 .genre-cards {
   background-color: #000000;
 }

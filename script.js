@@ -73,30 +73,30 @@ thankYouMsg();
 
 const yesChoice = document.getElementById("yes-choice")
 
-    yesChoice.addEventListener('click', () => {
-        document.getElementById("form-1").style.display = "block";
-        document.getElementById("form-2").style.display = "block";
-        document.getElementById("form-3").style.display = "block";
-    })
+yesChoice.addEventListener('click', () => {
+    document.getElementById("form-1").style.display = "block";
+    document.getElementById("form-2").style.display = "block";
+    document.getElementById("form-3").style.display = "block";
+})
 
-    const noChoice = document.getElementById("no-choice")
+const noChoice = document.getElementById("no-choice")
 
-    noChoice.addEventListener('click', () => {
-        document.getElementById("form-1").style.display = "block";
-        document.getElementById("form-2").style.display = "none";
-        document.getElementById("form-3").style.display = "block";
-    })
+noChoice.addEventListener('click', () => {
+    document.getElementById("form-1").style.display = "block";
+    document.getElementById("form-2").style.display = "none";
+    document.getElementById("form-3").style.display = "block";
+})
 
-    // Connect form validation
+// Connect form validation
 
-    const email = document.getElementById("email");
+const email = document.getElementById("email");
 
-    email.addEventListener("input", function (event) {
-        if (email.validity.typeMismatch) {
-            email.setCustomValidity("Please enter a valid e-mail address.");
-            email.reportValidity();
-        } else {
-            email.setCustomValidity("");
-        }
-    });
+email.addEventListener("input", function (event) {
+    if (email.validity.typeMismatch) {
+        email.setCustomValidity("Please enter a valid e-mail address.");
+        email.reportValidity();
+    } else {
+        email.setCustomValidity("");
+    }
+});
 
