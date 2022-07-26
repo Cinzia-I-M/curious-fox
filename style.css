@@ -370,7 +370,15 @@ h4 {
   background-color: #000000;
   background-image: linear-gradient(to bottom, transparent, #000000), url("images/fox-hero-header-2.jpg");
   background-size: cover;
-  background-position: center;
+  background-position-y: 35%;
+}
+
+.hero-header-Media h1 {
+  color: ghostwhite;
+  font-family: 'Noto Serif', serif;
+  font-weight: 700;
+  font-size: 50px;
+  padding: 100px 80px 200px 50px;
 }
 
 #SubPageKeyWord {
