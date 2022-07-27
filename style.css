@@ -276,7 +276,7 @@ h2 {
   justify-content: center;
 }
 
-.randomCont a {
+#random-btn {
   display:block;
   text-decoration: none;
   width:400px;
@@ -290,7 +290,7 @@ h2 {
   border: 3px solid #020202;
 }
 
-.randomCont a:hover {
+#random-btn:hover {
   color: ghostwhite;
   border: 3px solid #ffffff;
 }
@@ -647,7 +647,7 @@ h4 {
     background-position-x: -130px;
   }
 
-  .randomCont a {
+  #random-btn {
     font-size: 30px;
     width: 280px;
     height: 50px;
@@ -745,7 +745,7 @@ h4 {
     background-position-x: -130px;
   }
 
-  .randomCont a {
+  #random-btn {
     font-size: 40px;
     width: 320px;
     height: 70px;
