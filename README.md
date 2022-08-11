@@ -3,7 +3,7 @@
 This project is the result of a [Code First Girls](https://codefirstgirls.com/) task, with the challenge of creating a website from concept to design and build in 3-4 weeks.
 This is a static website, built with HTML, CSS and JavaScript for the purposes of demonstration and learning.
 
-***Find the website here*** - :fox_face:[Curious Fox](https://cinzia-i-m.github.io/cinzia-i-m/):fox_face:
+***Find the website here*** - :fox_face:[Curious Fox](https://cinzia-i-m.github.io/curious-fox/):fox_face:
 
 ## The concept
 A central hub for users to find new content of interest, from social media channels, to podcasts and books. :tv: :book: :headphones:
